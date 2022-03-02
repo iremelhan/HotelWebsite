@@ -1,0 +1,69 @@
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+    float: none;
+
+}
+
+#navbar ul li a {
+    padding: 5px;
+
+}
+
+/*Home info*/
+#homeinfo .info-img {
+    display: none;
+}
+
+#homeinfo .info-text {
+    float: none;
+    width: 100%;
+}
+
+/*boxes*/
+.box {
+    float: none;
+    width: 100%;
+}
+
+/*About page mobile styles*/
+
+
+
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100%;
+
+
+
+
+}
+
+
+
+
+#about-info .info-right {
+    margin-top: 50px;
+
+}
+
+
+
+#about-info h1 {
+    text-align: center;
+}
+
+/*Contact styles*/
+#contact-info .box-contact {
+    float: none;
+    width: 100%;
+    border-bottom: 0.5px solid #fff;
+    padding: 15px;
+
+
+}

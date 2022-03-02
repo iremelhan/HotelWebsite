@@ -1,0 +1,324 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Main Styles*/
+html,
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 33px;
+    ;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Utility Classes*/
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #008C72;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #008C72;
+    padding: 13px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #005A5B;
+}
+
+.clr {
+    clear: both;
+}
+
+.text-history {
+    color: whitesmoke;
+    padding: 10px;
+}
+
+/* PADDING*/
+.py-1 {
+    padding: 10px 0px;
+}
+
+.py-2 {
+    padding: 20px 0px;
+}
+
+.py-3 {
+
+
+    padding: 30px 0px;
+}
+
+/*Navigation*/
+#navbar {
+    background: #008C72;
+    color: white;
+    overflow: auto;
+
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background: #005A5B;
+    color: #fff;
+}
+
+/*Showcase styles*/
+#showcase {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/bedroom.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 155px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 65px;
+    line-height: 85px;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 34px;
+}
+
+/*Home Info*/
+#homeinfo {
+    height: 500px;
+    background-color: #008C72;
+    color: whitesmoke;
+}
+
+
+#homeinfo .info-img {
+    float: left;
+    width: 50%;
+    background-image: url("./img/hotel.jpeg");
+    background-size: cover;
+    height: 400px;
+    min-height: 100%;
+}
+
+#homeinfo .info-text {
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+
+}
+
+#homeinfo .text-primary {
+    padding: 8px;
+}
+
+#homeinfo .info-text p {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.btn-history {
+    background-color: whitesmoke;
+    color: #008C72;
+    display: inline-block;
+    font-size: 18px;
+    padding: 13px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-history:hover {
+    background: #005A5B;
+    color: whitesmoke;
+}
+
+/*Feature Styles*/
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.box h3 {
+    margin-bottom: 20px;
+}
+
+.box {
+    color: #005A5B;
+    background-color: whitesmoke;
+}
+
+#mid-color {
+    background-color: #005A5B;
+    color: whitesmoke;
+}
+
+/*Footer Styles*/
+#main-footer {
+    text-align: center;
+    background-color: #008C72;
+    color: whitesmoke;
+}
+
+/*******************************/
+/*About-Page Styles*/
+/*About Info Styles*/
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+
+
+}
+
+#about-info .info-right img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+
+
+
+
+
+
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-left h1 {
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+/*Testimonials Styles*/
+#testimonials {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url("./img/testi-photo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+
+}
+
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 45px;
+}
+
+.testimonial {
+    background-color: #008C72;
+    margin: 24px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/*Contact Form Styles*/
+#contact-form .form-group {
+    margin-bottom: 20px;
+    color: #008C72;
+
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px#ddd solid;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #008C72;
+}
+
+#contact-info .box-contact {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+
+
+}
+
+#contact-info {
+    background-color: #005A5B;
+    color: white;
+}
